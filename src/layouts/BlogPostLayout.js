@@ -8,7 +8,6 @@ import SEO from "../components/SEO";
 
 const BlogPostLayout = ({data}) => {
     const post = data.mdx;
-    console.log("test", post.frontmatter.image);
 
     return (
         <div>
